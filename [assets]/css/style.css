@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+p{
+  font-size: 20px;
+}
+h1{
+  font-size: 45px;
+  font-weight: bolder;
+  color: aqua;
+}
+h2{
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+  color: rgb(4, 195, 4);
+}
+h4{
+  color: red;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#options{
+  color:rgb(83, 14, 148);
+  border: 2px solid rgb(83, 14, 148);
+}
+#start{
+  color:rgb(83, 14, 148);
+  border: 2px solid rgb(83, 14, 148);
+}
+#results{
+  color: rgb(4, 195, 4);
+}
+.timeLeft{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.instructions{
+  background-color: rgb(83, 14, 148);
+  padding: 20px;
+}
+.container{
+  background-color: aqua;
+}
+.title{
+  color:aqua;
+  margin-top: 0px;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
+

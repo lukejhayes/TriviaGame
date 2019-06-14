@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Trival Trivia Game</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./[assets]/css/style.css">
+  <link rel="icon" type="image" href="./[assets]/images/trivia-papper-background-illustration-vector.jpg"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="header" id="head">
+            <h1 class="title">Trival Trivia Game</h1>
+        </div>
+        
+        <div class="instructions">
+            <div class="container" id="game">
+              <h2>Click 'Start Game' to play!</h2>
+              <p class="timeLeft">Remaining Time: <span id="timer"></span></p>
+              <p id="question" class="time"></p>
+            </div>
+        </div>
+          
+        <div id="results"> </div>
+
+        <div class="text-center" id="choices">
+            <button id="start" class="btn btn-info btn-lg">Start Game</button>
+            <div id="options"> </div>
+        </div>
+
+        <br></br>
+
+        <audio controls loop>
+          <source src="./[assets]/images/audioReuse.mp3" type="audio/mp3"/>
+        </audio>
+
+    </main>
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- TRIVIA APP JS --> 
+    <script type="text/javascript" src="./[assets]/javascript/app.js"></script>
+
+  </body>
+</html>
