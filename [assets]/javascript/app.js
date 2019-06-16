@@ -21,7 +21,7 @@ $(document).ready(function(){
       q4: 'Who was the first baseball player to have his number retired?',
       q5: "Who was the Greek god of dreams?",
       q6: 'Which is the largest island in the Mediterranean Sea?',
-      q7: "Who thinks they're always the last to find out everything?"
+      q7: "What album is the best selling of all time?"
     },
     // data for options stored in array.
     options: {
